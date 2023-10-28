@@ -12,6 +12,7 @@ const configuration = new Configuration({
 
 const openai = new OpenAIApi(configuration);
 
+//test api
 router.route('/').get((req, res) => {
   res.status(200).json({ message: 'Hello from DALL-E!' });
 });
